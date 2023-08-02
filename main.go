@@ -78,7 +78,7 @@ func main() {
 			}
 			os.Stdout.Write([]byte(builder.String()))
 		}
-		time.Sleep(10 * time.Millisecond)
+		time.Sleep(40 * time.Millisecond)
 	}
 	os.Stdout.Write([]byte("\n"))
 }
